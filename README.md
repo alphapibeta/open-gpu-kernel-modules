@@ -1,3 +1,11 @@
+
+
+# Interactions of peer_memory_client with nvidia_p2p module
+
+
+![The flow diagram](./test0/peermemory.svg)
+
+
 # NVIDIA Linux Open GPU Kernel Module Source
 
 This is the source release of the NVIDIA Linux open GPU kernel modules,
@@ -916,3 +924,6 @@ Subsystem Device ID.
 | NVIDIA GeForce RTX 4060 Laptop GPU              | 28E0           |
 | NVIDIA GeForce RTX 4050 Laptop GPU              | 28E1           |
 | NVIDIA RTX 2000 Ada Generation Embedded GPU     | 28F8           |
+
+
+
