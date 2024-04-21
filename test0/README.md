@@ -75,7 +75,7 @@ make modules -j$(nproc) \
 
 ## Setup
 
-The project is located in the `/home/data2/ronak/open-gpu-kernel-modules/small-test` directory and consists of the following files:
+The project is located in the `/home/data2/ronak/open-gpu-kernel-modules/test0` directory and consists of the following files:
 - `hello_gpu.c` - Source code for the kernel module that logs messages when loaded and unloaded.
 - `Makefile` - Used to compile the kernel module, specifying how to build and clean up the module.
 
@@ -85,24 +85,24 @@ To compile the kernel module, navigate to the module's directory and use the `ma
 
 ### Command:
 ```bash
-cd small-test
+cd test0
 make
 ```
 
 ### Expected Output:
 This output indicates that the module compilation process is invoking the compiler with settings suitable for building a kernel module.
 ```
-make -C /lib/modules/6.5.0-27-generic/build M=/home/data2/ronak/small-test modules
+make -C /lib/modules/6.5.0-27-generic/build M=/home/data2/ronak/test0 modules
 make[1]: Entering directory '/usr/src/linux-headers-6.5.0-27-generic'
 warning: the compiler differs from the one used to build the kernel
   The kernel was built by: x86_64-linux-gnu-gcc-12 (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0
   You are using:           gcc-12 (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0
-  CC [M]  /home/data2/ronak/small-test/hello_gpu.o
-  MODPOST /home/data2/ronak/small-test/Module.symvers
-  CC [M]  /home/data2/ronak/small-test/hello_gpu.mod.o
-  LD [M]  /home/data2/ronak/small-test/hello_gpu.ko
-  BTF [M] /home/data2/ronak/small-test/hello_gpu.ko
-Skipping BTF generation for /home/data2/ronak/small-test/hello_gpu.ko due to unavailability of vmlinux
+  CC [M]  /home/data2/ronak/test0/hello_gpu.o
+  MODPOST /home/data2/ronak/test0/Module.symvers
+  CC [M]  /home/data2/ronak/test0/hello_gpu.mod.o
+  LD [M]  /home/data2/ronak/test0/hello_gpu.ko
+  BTF [M] /home/data2/ronak/test0/hello_gpu.ko
+Skipping BTF generation for /home/data2/ronak/test0/hello_gpu.ko due to unavailability of vmlinux
 make[1]: Leaving directory '/usr/src/linux-headers-6.5.0-27-generic'
 ```
 
