@@ -33,13 +33,21 @@ run_test() {
     sudo ./userprogram "/dev/$DEVICE_NAME" > "${PERF_OUTPUT_DIR}/performance.txt"
 }
 
+run_test_op() {
+    echo "Running test for $MODULE_NAME with optimizations using device /dev/$DEVICE_NAME"
+    sudo ./userprogram_op "/dev/$DEVICE_NAME" > "${PERF_OUTPUT_DIR}/performance_op.txt"
+}
+
 analyze_perf() {
     echo "Analyzing performance..."
     sudo perf record -o ${PERF_OUTPUT_DIR}/perf.data -g ./userprogram "/dev/$DEVICE_NAME"
     sudo perf report -i ${PERF_OUTPUT_DIR}/perf.data > ${PERF_OUTPUT_DIR}/perf_report.txt
     sudo perf script -i ${PERF_OUTPUT_DIR}/perf.data > ${PERF_OUTPUT_DIR}/perf_script_output.txt
-    echo "Performance analysis report stored in ${PERF_OUTPUT_DIR}/perf_report.txt"
-    echo "Detailed performance script output stored in ${PERF_OUTPUT_DIR}/perf_script_output.txt"
+
+    echo "Analyzing performance with optimizations..."
+    sudo perf record -o ${PERF_OUTPUT_DIR}/perf.data.op -g ./userprogram_op "/dev/$DEVICE_NAME"
+    sudo perf report -i ${PERF_OUTPUT_DIR}/perf.data.op > ${PERF_OUTPUT_DIR}/perf_report_op.txt
+    sudo perf script -i ${PERF_OUTPUT_DIR}/perf.data.op > ${PERF_OUTPUT_DIR}/perf_script_output_op.txt
 }
 
 mkdir -p "$PERF_OUTPUT_DIR"
@@ -49,13 +57,18 @@ echo "Cleaning and building..."
 make clean
 make
 
-echo "Testing x_square version..."
+echo "Testing x_square version without optimizations..."
 load_module
 run_test
 analyze_perf
+
+echo "Testing x_square version with optimizations..."
+run_test_op
+analyze_perf
+
 unload_module
 
 echo "Cleaning up..."
 make clean
 
-echo "Performance results stored in ${PERF_OUTPUT_DIR}/performance.txt"
+echo "Performance results stored in ${PERF_OUTPUT_DIR}/performance.txt and ${PERF_OUTPUT_DIR}/performance_op.txt"

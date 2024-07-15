@@ -3,5 +3,7 @@
 
 void x_square_forward(float *inputs, float *results, int num_inputs);
 void x_square_backward(float *inputs, float *results, int num_inputs);
+void x_square_forward_op(float *inputs, float *results, int num_inputs);
+void x_square_backward_op(float *inputs, float *results, int num_inputs);
 
 #endif // X_SQUARE_IMPL_H

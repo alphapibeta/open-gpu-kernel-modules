@@ -14,7 +14,7 @@
 static int majorNumber;
 static struct class* xSquareClass = NULL;
 static struct device* xSquareDevice = NULL;
-static float results[26];
+static float results[52];
 
 static int device_open(struct inode *, struct file *);
 static int device_release(struct inode *, struct file *);
@@ -37,7 +37,7 @@ static int __init x_square_init(void) {
         return majorNumber;
     }
 
-    xSquareClass = class_create(CLASS_NAME);
+    xSquareClass = class_create(THIS_MODULE,CLASS_NAME);
     if (IS_ERR(xSquareClass)) {
         unregister_chrdev(majorNumber, DEVICE_NAME);
         printk(KERN_ALERT "Failed to register device class\n");
@@ -94,7 +94,7 @@ static ssize_t device_read(struct file *filep, char __user *buffer, size_t len, 
 
 static ssize_t device_write(struct file *filep, const char __user *buffer, size_t len, loff_t *offset) {
     float inputs[13];
-    float forward_results[13], backward_results[13];
+    float forward_results[13], backward_results[13], forward_results_op[13], backward_results_op[13];
     int error_count = 0;
     ktime_t start, end;
     s64 duration;
@@ -109,12 +109,16 @@ static ssize_t device_write(struct file *filep, const char __user *buffer, size_
         start = ktime_get();
         x_square_forward(inputs, forward_results, 13);
         x_square_backward(inputs, backward_results, 13);
+        x_square_forward_op(inputs, forward_results_op, 13);
+        x_square_backward_op(inputs, backward_results_op, 13);
         end = ktime_get();
         duration = ktime_to_ns(ktime_sub(end, start));
         printk(KERN_INFO "Kernel execution time: %lld nanoseconds\n", duration);
 
         memcpy(results, forward_results, sizeof(forward_results));
         memcpy(results + 13, backward_results, sizeof(backward_results));
+        memcpy(results + 26, forward_results_op, sizeof(forward_results_op));
+        memcpy(results + 39, backward_results_op, sizeof(backward_results_op));
         return len;
     } else {
         return -EFAULT;

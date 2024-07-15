@@ -1,0 +1,1 @@
+cmd_/home/ronak/open-gpu-kernel-modules/x_square/x_square.ko := ld -r  -EL  -maarch64elf  --build-id=sha1  -T scripts/module.lds -o /home/ronak/open-gpu-kernel-modules/x_square/x_square.ko /home/ronak/open-gpu-kernel-modules/x_square/x_square.o /home/ronak/open-gpu-kernel-modules/x_square/x_square.mod.o;  true

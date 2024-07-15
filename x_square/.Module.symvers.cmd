@@ -1,0 +1,1 @@
+cmd_/home/ronak/open-gpu-kernel-modules/x_square/Module.symvers := sed 's/ko$$/o/' /home/ronak/open-gpu-kernel-modules/x_square/modules.order | scripts/mod/modpost -m  -E  -o /home/ronak/open-gpu-kernel-modules/x_square/Module.symvers -e -i Module.symvers   -T -
