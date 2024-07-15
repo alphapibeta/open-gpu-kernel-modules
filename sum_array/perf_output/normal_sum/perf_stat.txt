@@ -1,0 +1,19 @@
+# started on Mon Jul 15 02:33:56 2024
+
+
+ Performance counter stats for './normal_sum_userprogram /dev/sum_array_dev':
+
+         1,059,286      cache-misses                                                
+        72,074,111      cycles                                                      
+       102,794,569      instructions              #    1.43  insn per cycle         
+   <not supported>      branches                                                    
+               981      faults                                                      
+                 0      migrations                                                  
+                 1      cs                                                          
+
+       0.058873122 seconds time elapsed
+
+       0.032944000 seconds user
+       0.024769000 seconds sys
+
+

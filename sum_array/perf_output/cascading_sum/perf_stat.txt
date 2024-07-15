@@ -1,0 +1,19 @@
+# started on Mon Jul 15 02:33:56 2024
+
+
+ Performance counter stats for './cascading_sum_userprogram /dev/cascading_sum_dev':
+
+           999,536      cache-misses                                                
+        72,921,301      cycles                                                      
+       101,581,631      instructions              #    1.39  insn per cycle         
+   <not supported>      branches                                                    
+               982      faults                                                      
+                 0      migrations                                                  
+                 2      cs                                                          
+
+       0.059978741 seconds time elapsed
+
+       0.034388000 seconds user
+       0.023584000 seconds sys
+
+

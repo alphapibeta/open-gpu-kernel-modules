@@ -1,0 +1,2175 @@
+perf 49262 12190.486721:          1 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486770:          1 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486790:          1 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486836:          2 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486855:          5 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486874:          8 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486892:         20 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486910:         51 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486929:        133 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486951:        345 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.486972:        879 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.487018:       1996 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.487042:       4783 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+perf 49262 12190.487064:       7407 cycles: 
+	ffffb4366a9369e4 perf_event_exec+0x94 ([kernel.kallsyms])
+	ffffb4366aa1459c begin_new_exec+0x47c ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+normal_sum_user 49262 12190.487091:      16390 cycles: 
+	ffffb4366a7cdd50 __task_pid_nr_ns+0x40 ([kernel.kallsyms])
+	ffffb4366a9266b0 perf_event_pid_type+0x30 ([kernel.kallsyms])
+	ffffb4366a92b6e0 perf_event_comm_output+0xc0 ([kernel.kallsyms])
+	ffffb4366a929610 perf_iterate_ctx.constprop.0+0x100 ([kernel.kallsyms])
+	ffffb4366a92ab08 perf_iterate_sb+0x1b8 ([kernel.kallsyms])
+	ffffb4366a936d24 perf_event_comm+0xd4 ([kernel.kallsyms])
+	ffffb4366aa13e3c __set_task_comm+0x5c ([kernel.kallsyms])
+	ffffb4366aa145c4 begin_new_exec+0x4a4 ([kernel.kallsyms])
+	ffffb4366aaa322c load_elf_binary+0x39c ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+normal_sum_user 49262 12190.487139:      37640 cycles: 
+	ffffb4366a99db24 __flush_tlb_range.isra.0.constprop.0+0xd4 ([kernel.kallsyms])
+	ffffb4366aa11b7c shift_arg_pages+0xac ([kernel.kallsyms])
+	ffffb4366aa11e50 setup_arg_pages+0x1e0 ([kernel.kallsyms])
+	ffffb4366aaa32a8 load_elf_binary+0x418 ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+normal_sum_user 49262 12190.487217:      74992 cycles: 
+	ffffb4366a9991a4 __split_vma+0x64 ([kernel.kallsyms])
+	ffffb4366a99941c __do_munmap+0xec ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a9998e0 vm_munmap+0x30 ([kernel.kallsyms])
+	ffffb4366aaa10b4 elf_map+0xb4 ([kernel.kallsyms])
+	ffffb4366aaa3330 load_elf_binary+0x4a0 ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+normal_sum_user 49262 12190.487328:     114868 cycles: 
+	ffffb4366a92954c perf_iterate_ctx.constprop.0+0x3c ([kernel.kallsyms])
+	ffffb4366a92ab08 perf_iterate_sb+0x1b8 ([kernel.kallsyms])
+	ffffb4366a937078 perf_event_mmap+0x2c8 ([kernel.kallsyms])
+	ffffb4366a99adb0 mmap_region+0x1e0 ([kernel.kallsyms])
+	ffffb4366a99b594 do_mmap+0x324 ([kernel.kallsyms])
+	ffffb4366a96f308 vm_mmap_pgoff+0xe8 ([kernel.kallsyms])
+	ffffb4366a96f39c vm_mmap+0x6c ([kernel.kallsyms])
+	ffffb4366aaa1088 elf_map+0x88 ([kernel.kallsyms])
+	ffffb4366aaa387c load_elf_binary+0x9ec ([kernel.kallsyms])
+	ffffb4366aa136d8 bprm_execve+0x2a8 ([kernel.kallsyms])
+	ffffb4366aa13c10 do_execveat_common.isra.0+0x180 ([kernel.kallsyms])
+	ffffb4366aa14cb8 __arm64_sys_execve+0x48 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffffb31d61e8 [unknown] ([unknown])
+
+normal_sum_user 49262 12190.487476:     146921 cycles: 
+	ffffb4366b91537c _raw_spin_unlock_irq+0x2c ([kernel.kallsyms])
+	ffffb4366a7cf208 task_work_run+0x78 ([kernel.kallsyms])
+	ffffb4366a73080c do_notify_resume+0x23c ([kernel.kallsyms])
+	ffffb4366a72286c work_pending+0xc ([kernel.kallsyms])
+	    ffff8b5b7100 _start+0x0 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.487623:     169976 cycles: 
+	ffffb4366b90c450 el0_ia+0x50 ([kernel.kallsyms])
+	ffffb4366b90c8e0 el0_sync_handler+0x90 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b5cf0d0 memcpy+0x0 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.487774:     184612 cycles: 
+	ffffb4366aa18964 terminate_walk+0xd4 ([kernel.kallsyms])
+	ffffb4366aa1c2ec path_lookupat.isra.0+0xbc ([kernel.kallsyms])
+	ffffb4366aa1f0fc filename_lookup+0x9c ([kernel.kallsyms])
+	ffffb4366aa1f32c user_path_at_empty+0x5c ([kernel.kallsyms])
+	ffffb4366aa02bc8 do_faccessat+0x98 ([kernel.kallsyms])
+	ffffb4366aa044e0 __arm64_sys_faccessat+0x30 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b5cdbcc access+0x14 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5cbf10 _dl_sysdep_start+0x368 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7a5c _dl_start_final+0xac (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.487941:     200660 cycles: 
+	    ffff8b5ca9b8 _dl_cache_libcmp+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5be988 _dl_map_object+0x380 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c28e8 openaux+0x38 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5ccbbc _dl_catch_exception+0x54 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c2e44 _dl_map_object_deps+0x54c (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b99b8 dl_main+0x15d8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5cbf10 _dl_sysdep_start+0x368 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7a5c _dl_start_final+0xac (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.488115:     217289 cycles: 
+	ffffb4366a92d1e0 perf_event_mmap_output+0x50 ([kernel.kallsyms])
+	ffffb4366a92aae0 perf_iterate_sb+0x190 ([kernel.kallsyms])
+	ffffb4366a937078 perf_event_mmap+0x2c8 ([kernel.kallsyms])
+	ffffb4366a99d360 mprotect_fixup+0x140 ([kernel.kallsyms])
+	ffffb4366a99d614 __arm64_sys_mprotect+0x194 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b5cdfd8 mprotect+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5be7c0 _dl_map_object+0x1b8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c28e8 openaux+0x38 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5ccbbc _dl_catch_exception+0x54 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c2e44 _dl_map_object_deps+0x54c (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b99b8 dl_main+0x15d8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5cbf10 _dl_sysdep_start+0x368 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7a5c _dl_start_final+0xac (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.488308:     230771 cycles: 
+	ffffb4366a98fec0 handle_mm_fault+0x8f0 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b5ced00 memset+0x100 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7844 init_tls+0x9c (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5baf2c dl_main+0x2b4c (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5cbf10 _dl_sysdep_start+0x368 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7a5c _dl_start_final+0xac (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.488536:     243185 cycles: 
+	    ffff8b5cdfd8 mprotect+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c1f18 _dl_relocate_object+0xb40 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b9dd0 dl_main+0x19f0 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5cbf10 _dl_sysdep_start+0x368 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7a5c _dl_start_final+0xac (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7d88 _dl_start+0x208 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7108 _start+0x8 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.488743:     252243 cycles: 
+	    ffff8b41ccdc _init+0x54 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b5c486c call_init.part.0+0x6c (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5c49b4 _dl_init+0x84 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+	    ffff8b5b7184 _dl_start_user+0x78 (/usr/lib/aarch64-linux-gnu/ld-2.31.so)
+
+normal_sum_user 49262 12190.488963:     255354 cycles: 
+	ffffb4366a74c1b0 do_page_fault+0x0 ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4711c4 malloc_init_state+0x54 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b47570c malloc_hook_ini+0x2c (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480c00 main+0xa0 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.489177:     261900 cycles: 
+	    ffff8b509154 __aarch64_swp4_rel+0x4 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b433744 rand+0xc (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.489403:     266316 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.489671:     272048 cycles: 
+	ffffb4366a7202e4 __do_softirq+0xb4 ([kernel.kallsyms])
+	ffffb4366a7aae80 irq_exit+0xc0 ([kernel.kallsyms])
+	ffffb4366a8205b4 __handle_domain_irq+0x74 ([kernel.kallsyms])
+	ffffb4366a7200b0 __irqentry_text_start+0xb0 ([kernel.kallsyms])
+	ffffb4366a721c50 el1_irq+0xd0 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.489869:     264853 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.490082:     262645 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.490293:     271204 cycles: 
+	    aaaad3480c54 main+0xf4 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.490533:     277113 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.490766:     283390 cycles: 
+	ffffb4366a9ef870 get_mem_cgroup_from_mm+0xa0 ([kernel.kallsyms])
+	ffffb4366a9f58f8 mem_cgroup_charge+0x68 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.490991:     284965 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.491213:     287581 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.491442:     291475 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.491671:     295997 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.491915:     299499 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.492150:     302957 cycles: 
+	ffffb4366a983b70 vmacache_find+0x40 ([kernel.kallsyms])
+	ffffb4366a996f50 find_vma+0x30 ([kernel.kallsyms])
+	ffffb4366a74c294 do_page_fault+0xe4 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.492388:     303909 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.492631:     306212 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.492879:     308183 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.493118:     309360 cycles: 
+	ffffb4366ad61008 __pi_clear_page+0x14 ([kernel.kallsyms])
+	ffffb4366a9b06b4 get_page_from_freelist+0x1334 ([kernel.kallsyms])
+	ffffb4366a9b3708 __alloc_pages_nodemask+0x138 ([kernel.kallsyms])
+	ffffb4366a98fddc handle_mm_fault+0x80c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.493360:     309672 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.493615:     311474 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.493863:     312233 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.494108:     311506 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.494349:     311745 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.494594:     312563 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.494845:     313922 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.495096:     314787 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956b40 pagevec_lru_move_fn+0xd0 ([kernel.kallsyms])
+	ffffb4366a956cd4 lru_cache_add+0xa4 ([kernel.kallsyms])
+	ffffb4366a9589a0 lru_cache_add_inactive_or_unevictable+0x40 ([kernel.kallsyms])
+	ffffb4366a98feec handle_mm_fault+0x91c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.495338:     314660 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.495584:     314483 cycles: 
+	ffffb4366a810fac up_read+0x1c ([kernel.kallsyms])
+	ffffb4366a74c2d8 do_page_fault+0x128 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.495830:     315737 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.496084:     316444 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.496338:     316996 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956b40 pagevec_lru_move_fn+0xd0 ([kernel.kallsyms])
+	ffffb4366a956cd4 lru_cache_add+0xa4 ([kernel.kallsyms])
+	ffffb4366a9589a0 lru_cache_add_inactive_or_unevictable+0x40 ([kernel.kallsyms])
+	ffffb4366a98feec handle_mm_fault+0x91c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.496584:     316400 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.496828:     315800 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.497079:     316518 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.497325:     317406 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.497585:     317243 cycles: 
+	ffffb4366a9c123c cgroup_throttle_swaprate+0x3c ([kernel.kallsyms])
+	ffffb4366a98fe00 handle_mm_fault+0x830 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.497833:     317719 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.498087:     316306 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.498335:     316523 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.498583:     315943 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.498829:     316226 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.499079:     316597 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.499325:     317129 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.499575:     317229 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.499819:     317783 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.500077:     317772 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.500324:     318749 cycles: 
+	ffffb4366b915c38 _raw_spin_lock+0x8 ([kernel.kallsyms])
+	ffffb4366a98fe94 handle_mm_fault+0x8c4 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.500575:     317589 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.500821:     318081 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.501069:     317953 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.501325:     318513 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.501591:     318845 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.501840:     317841 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.502088:     315581 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.502332:     315731 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.502580:     316034 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.502826:     316937 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.503073:     317288 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.503323:     317863 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.503570:     318439 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.503817:     318397 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.504064:     318838 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.504333:     319379 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.504584:     319826 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.504831:     317040 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.505078:     316852 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.505329:     317358 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.505871:     317716 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.506122:     317716 cycles: 
+	ffffb4366a9b35d0 __alloc_pages_nodemask+0x0 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.506357:     296336 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.506598:     296113 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.506834:     298534 cycles: 
+	ffffb4366a83c6a0 __rcu_read_unlock+0x0 ([kernel.kallsyms])
+	ffffb4366a9f58f8 mem_cgroup_charge+0x68 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.507073:     299909 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.507309:     302128 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.507555:     303865 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.507794:     306162 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.508032:     306727 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.508275:     308582 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.508578:     310465 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.508825:     311509 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.509061:     304804 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.509298:     305181 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.509795:     309281 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.510036:     309281 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.510261:     290083 cycles: 
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.510492:     291359 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.510735:     295442 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.510968:     298363 cycles: 
+	ffffb4366a9efec8 __mod_memcg_state+0x78 ([kernel.kallsyms])
+	ffffb4366a9eff78 __mod_memcg_lruvec_state+0x38 ([kernel.kallsyms])
+	ffffb4366a9f00ac __mod_lruvec_state+0x4c ([kernel.kallsyms])
+	ffffb4366a9a20ac page_add_new_anon_rmap+0x16c ([kernel.kallsyms])
+	ffffb4366a98fee0 handle_mm_fault+0x910 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.511205:     299548 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.511441:     302210 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.511686:     304230 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.511926:     306590 cycles: 
+	ffffb4366a98f7f8 handle_mm_fault+0x228 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.512168:     307374 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.512408:     308975 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.512652:     310308 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.512903:     311860 cycles: 
+	ffffb4366a9b36e0 __alloc_pages_nodemask+0x110 ([kernel.kallsyms])
+	ffffb4366a98fddc handle_mm_fault+0x80c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.513149:     312772 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.513392:     312686 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.513647:     313247 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.513902:     314630 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.514146:     313917 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.514391:     313109 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.514639:     314046 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.514904:     314906 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956b40 pagevec_lru_move_fn+0xd0 ([kernel.kallsyms])
+	ffffb4366a956cd4 lru_cache_add+0xa4 ([kernel.kallsyms])
+	ffffb4366a9589a0 lru_cache_add_inactive_or_unevictable+0x40 ([kernel.kallsyms])
+	ffffb4366a98feec handle_mm_fault+0x91c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.515146:     315157 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.515390:     312947 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.515636:     314318 cycles: 
+	ffffb4366a9eb7b0 mem_cgroup_from_task+0x0 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.515891:     315253 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.516137:     315918 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.516383:     315047 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.516633:     315675 cycles: 
+	ffffb4366a983b98 vmacache_find+0x68 ([kernel.kallsyms])
+	ffffb4366a996f50 find_vma+0x30 ([kernel.kallsyms])
+	ffffb4366a74c294 do_page_fault+0xe4 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.516891:     316330 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.517136:     316373 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.517383:     315231 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.517638:     315990 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.517884:     316370 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.518135:     315531 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.518382:     316243 cycles: 
+	ffffb4366ad61008 __pi_clear_page+0x14 ([kernel.kallsyms])
+	ffffb4366a9b06b4 get_page_from_freelist+0x1334 ([kernel.kallsyms])
+	ffffb4366a9b3708 __alloc_pages_nodemask+0x138 ([kernel.kallsyms])
+	ffffb4366a98fddc handle_mm_fault+0x80c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.518632:     316030 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.518878:     316519 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.519136:     316532 cycles: 
+	ffffb4366a98f79c handle_mm_fault+0x1cc ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.519384:     317084 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.519631:     315969 cycles: 
+	ffffb4366a9c123c cgroup_throttle_swaprate+0x3c ([kernel.kallsyms])
+	ffffb4366a98fe00 handle_mm_fault+0x830 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.519879:     316175 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.520135:     316711 cycles: 
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.520384:     317005 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.520635:     316092 cycles: 
+	ffffb4366a9ee718 percpu_ref_get_many+0x38 ([kernel.kallsyms])
+	ffffb4366a9f5a34 mem_cgroup_charge+0x1a4 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.520884:     316247 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.521140:     316205 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.521387:     316223 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.521638:     315322 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.521886:     315802 cycles: 
+	ffffb4366a98f81c handle_mm_fault+0x24c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.522143:     315700 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.522388:     316096 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.522637:     314908 cycles: 
+	ffffb4366a9f0060 __mod_lruvec_state+0x0 ([kernel.kallsyms])
+	ffffb4366a98fee0 handle_mm_fault+0x910 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.522886:     315682 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.523134:     315878 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.523389:     316038 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.523637:     316419 cycles: 
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.523881:     315668 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.524126:     315900 cycles: 
+	ffffb4366a98f904 handle_mm_fault+0x334 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.524386:     316877 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.524634:     317687 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.524883:     316213 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.525129:     316517 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.525388:     316627 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.525644:     317279 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.525894:     316018 cycles: 
+	ffffb4366a98f844 handle_mm_fault+0x274 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.526142:     315065 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.526398:     314973 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.526645:     315378 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.526892:     314508 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.527139:     314887 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.527396:     315426 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.527643:     315945 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.527889:     314805 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.528135:     315272 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.528383:     315963 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.528640:     316494 cycles: 
+	ffffb4366a74c760 do_mem_abort+0x0 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    aaaad3480c5c main+0xfc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.528889:     316953 cycles: 
+	    ffff8b433738 rand+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.529135:     315838 cycles: 
+	    aaaad3480c4c main+0xec (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.529393:     315912 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.529693:     316688 cycles: 
+	ffffb4366a9ee718 percpu_ref_get_many+0x38 ([kernel.kallsyms])
+	ffffb4366a9f5a34 mem_cgroup_charge+0x1a4 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.529983:     315024 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.530266:     308582 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956b40 pagevec_lru_move_fn+0xd0 ([kernel.kallsyms])
+	ffffb4366a956cd4 lru_cache_add+0xa4 ([kernel.kallsyms])
+	ffffb4366a9589a0 lru_cache_add_inactive_or_unevictable+0x40 ([kernel.kallsyms])
+	ffffb4366a98feec handle_mm_fault+0x91c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.530544:     303235 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.530819:     298725 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.531086:     295053 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.531350:     291665 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.531620:     289377 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.531882:     287357 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.532139:     284767 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.532399:     283144 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.532666:     282118 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.532917:     280759 cycles: 
+	ffffb4366ad61008 __pi_clear_page+0x14 ([kernel.kallsyms])
+	ffffb4366a9b06b4 get_page_from_freelist+0x1334 ([kernel.kallsyms])
+	ffffb4366a9b3708 __alloc_pages_nodemask+0x138 ([kernel.kallsyms])
+	ffffb4366a98fddc handle_mm_fault+0x80c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.533175:     278552 cycles: 
+	ffffb4366a996f50 find_vma+0x30 ([kernel.kallsyms])
+	ffffb4366a74c294 do_page_fault+0xe4 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.533432:     278383 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.533696:     277341 cycles: 
+	ffffb4366a98f7f8 handle_mm_fault+0x228 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.533948:     276138 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.534195:     274360 cycles: 
+	ffffb4366b90c3d4 el0_da+0x24 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.534447:     274024 cycles: 
+	ffffb4366a9ee8b8 percpu_ref_put_many.constprop.0+0x38 ([kernel.kallsyms])
+	ffffb4366a9f5a10 mem_cgroup_charge+0x180 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.534699:     274341 cycles: 
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.534951:     274079 cycles: 
+	    ffff8b480f1c __memcpy_generic+0x14c (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.535215:     273813 cycles: 
+	ffffb4366ad61010 __pi_clear_page+0x1c ([kernel.kallsyms])
+	ffffb4366a9e0054 do_huge_pmd_anonymous_page+0x1c4 ([kernel.kallsyms])
+	ffffb4366a98ff78 handle_mm_fault+0x9a8 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.535431:     273577 cycles: 
+	ffffb4366ad61008 __pi_clear_page+0x14 ([kernel.kallsyms])
+	ffffb4366a9e0054 do_huge_pmd_anonymous_page+0x1c4 ([kernel.kallsyms])
+	ffffb4366a98ff78 handle_mm_fault+0x9a8 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.535643:     271749 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.535864:     277044 cycles: 
+	    ffff8b480f10 __memcpy_generic+0x140 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.536127:     283369 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956b40 pagevec_lru_move_fn+0xd0 ([kernel.kallsyms])
+	ffffb4366a956cd4 lru_cache_add+0xa4 ([kernel.kallsyms])
+	ffffb4366a9589a0 lru_cache_add_inactive_or_unevictable+0x40 ([kernel.kallsyms])
+	ffffb4366a98feec handle_mm_fault+0x91c ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.536384:     288112 cycles: 
+	ffffb4366a9f5948 mem_cgroup_charge+0xb8 ([kernel.kallsyms])
+	ffffb4366a98fdf0 handle_mm_fault+0x820 ([kernel.kallsyms])
+	ffffb4366a74c2c8 do_page_fault+0x118 ([kernel.kallsyms])
+	ffffb4366a74c62c do_translation_fault+0x7c ([kernel.kallsyms])
+	ffffb4366a74c7b4 do_mem_abort+0x54 ([kernel.kallsyms])
+	ffffb4366b90c3e8 el0_da+0x38 ([kernel.kallsyms])
+	ffffb4366b90c8d0 el0_sync_handler+0x80 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b480f20 __memcpy_generic+0x150 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.536633:     286266 cycles: 
+	    ffff8b441228 _itoa_word+0x0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b4da9b0 __printf_chk+0xa0 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480cb8 main+0x158 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.536865:     285337 cycles: 
+	ffffb4366ad61270 __arch_copy_from_user+0x1b0 ([kernel.kallsyms])
+	ffffb4365dd9e504 device_write+0xac ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.537075:     285523 cycles: 
+	ffffb4366ad61284 __arch_copy_from_user+0x1c4 ([kernel.kallsyms])
+	ffffb4365dd9e504 device_write+0xac ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.537309:     288181 cycles: 
+	ffffb4366ad61270 __arch_copy_from_user+0x1b0 ([kernel.kallsyms])
+	ffffb4365dd9e504 device_write+0xac ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.537540:     295053 cycles: 
+	ffffb4365dd9e048 normal_sum+0x48 ([sum_array])
+	ffffb4365dd9e56c device_write+0x114 ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.537790:     297632 cycles: 
+	ffffb4365dd9e048 normal_sum+0x48 ([sum_array])
+	ffffb4365dd9e56c device_write+0x114 ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.538032:     299619 cycles: 
+	ffffb4365dd9e048 normal_sum+0x48 ([sum_array])
+	ffffb4365dd9e56c device_write+0x114 ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.538279:     299684 cycles: 
+	ffffb4365dd9e048 normal_sum+0x48 ([sum_array])
+	ffffb4365dd9e56c device_write+0x114 ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.538498:     300722 cycles: 
+	ffffb4365dd9e048 normal_sum+0x48 ([sum_array])
+	ffffb4365dd9e56c device_write+0x114 ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.538738:     301202 cycles: 
+	ffffb4365dd9e170 cascading_sum+0x90 ([sum_array])
+	ffffb4365dd9e594 device_write+0x13c ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.538997:     306505 cycles: 
+	ffffb4365dd9e170 cascading_sum+0x90 ([sum_array])
+	ffffb4365dd9e594 device_write+0x13c ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.539242:     308096 cycles: 
+	ffffb4365dd9e170 cascading_sum+0x90 ([sum_array])
+	ffffb4365dd9e594 device_write+0x13c ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.539504:     306836 cycles: 
+	ffffb4365dd9e170 cascading_sum+0x90 ([sum_array])
+	ffffb4365dd9e200 cascading_sum+0x120 ([sum_array])
+	ffffb4365dd9e594 device_write+0x13c ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.539735:     307554 cycles: 
+	ffffb4365dd9e170 cascading_sum+0x90 ([sum_array])
+	ffffb4365dd9e200 cascading_sum+0x120 ([sum_array])
+	ffffb4365dd9e200 cascading_sum+0x120 ([sum_array])
+	ffffb4365dd9e200 cascading_sum+0x120 ([sum_array])
+	ffffb4365dd9e594 device_write+0x13c ([sum_array])
+	ffffb4366aa072f4 vfs_write+0xc4 ([kernel.kallsyms])
+	ffffb4366aa08e6c ksys_write+0x7c ([kernel.kallsyms])
+	ffffb4366aa08f28 __arm64_sys_write+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4bfc80 __GI___libc_write+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d2c main+0x1cc (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.540019:     305842 cycles: 
+	    ffff8b4bfbb0 read+0x30 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480d44 main+0x1e4 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.540261:     308888 cycles: 
+	ffffb4366a9eff88 __mod_memcg_lruvec_state+0x48 ([kernel.kallsyms])
+	ffffb4366a9f00ac __mod_lruvec_state+0x4c ([kernel.kallsyms])
+	ffffb4366a9a249c page_remove_rmap+0xcc ([kernel.kallsyms])
+	ffffb4366a98cd9c unmap_page_range+0x45c ([kernel.kallsyms])
+	ffffb4366a98d298 unmap_single_vma+0x78 ([kernel.kallsyms])
+	ffffb4366a98d518 unmap_vmas+0x78 ([kernel.kallsyms])
+	ffffb4366a996d70 unmap_region+0xc0 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.540483:     304351 cycles: 
+	ffffb4366a9effd8 __mod_memcg_lruvec_state+0x98 ([kernel.kallsyms])
+	ffffb4366a9f00ac __mod_lruvec_state+0x4c ([kernel.kallsyms])
+	ffffb4366a9a249c page_remove_rmap+0xcc ([kernel.kallsyms])
+	ffffb4366a98cd9c unmap_page_range+0x45c ([kernel.kallsyms])
+	ffffb4366a98d298 unmap_single_vma+0x78 ([kernel.kallsyms])
+	ffffb4366a98d518 unmap_vmas+0x78 ([kernel.kallsyms])
+	ffffb4366a996d70 unmap_region+0xc0 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.540720:     305612 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956958 release_pages+0x288 ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.540946:     310236 cycles: 
+	ffffb4366a740eac _mcount+0x0 ([kernel.kallsyms])
+	ffffb4366a9aec34 free_unref_page_list+0x64 ([kernel.kallsyms])
+	ffffb4366a9569cc release_pages+0x2fc ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.541199:     312654 cycles: 
+	ffffb4366a9effd8 __mod_memcg_lruvec_state+0x98 ([kernel.kallsyms])
+	ffffb4366a9f00ac __mod_lruvec_state+0x4c ([kernel.kallsyms])
+	ffffb4366a9a249c page_remove_rmap+0xcc ([kernel.kallsyms])
+	ffffb4366a98cd9c unmap_page_range+0x45c ([kernel.kallsyms])
+	ffffb4366a98d298 unmap_single_vma+0x78 ([kernel.kallsyms])
+	ffffb4366a98d518 unmap_vmas+0x78 ([kernel.kallsyms])
+	ffffb4366a996d70 unmap_region+0xc0 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.541432:     316492 cycles: 
+	ffffb4366a9efec8 __mod_memcg_state+0x78 ([kernel.kallsyms])
+	ffffb4366a9eff78 __mod_memcg_lruvec_state+0x38 ([kernel.kallsyms])
+	ffffb4366a9f00ac __mod_lruvec_state+0x4c ([kernel.kallsyms])
+	ffffb4366a9a249c page_remove_rmap+0xcc ([kernel.kallsyms])
+	ffffb4366a98cd9c unmap_page_range+0x45c ([kernel.kallsyms])
+	ffffb4366a98d298 unmap_single_vma+0x78 ([kernel.kallsyms])
+	ffffb4366a98d518 unmap_vmas+0x78 ([kernel.kallsyms])
+	ffffb4366a996d70 unmap_region+0xc0 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.541695:     316194 cycles: 
+	ffffb4366a98cdc0 unmap_page_range+0x480 ([kernel.kallsyms])
+	ffffb4366a98d298 unmap_single_vma+0x78 ([kernel.kallsyms])
+	ffffb4366a98d518 unmap_vmas+0x78 ([kernel.kallsyms])
+	ffffb4366a996d70 unmap_region+0xc0 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.541949:     318408 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956958 release_pages+0x288 ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.542188:     316593 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956958 release_pages+0x288 ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.542436:     315969 cycles: 
+	ffffb4366a9aed40 free_unref_page_list+0x170 ([kernel.kallsyms])
+	ffffb4366a9569cc release_pages+0x2fc ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.542661:     317681 cycles: 
+	ffffb4366b915de8 _raw_spin_unlock_irqrestore+0x38 ([kernel.kallsyms])
+	ffffb4366a956958 release_pages+0x288 ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.542939:     318069 cycles: 
+	ffffb4366a9aed40 free_unref_page_list+0x170 ([kernel.kallsyms])
+	ffffb4366a9569cc release_pages+0x2fc ([kernel.kallsyms])
+	ffffb4366a9baad8 free_pages_and_swap_cache+0xe8 ([kernel.kallsyms])
+	ffffb4366a99c6a8 tlb_flush_mmu+0x48 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a996da8 unmap_region+0xf8 ([kernel.kallsyms])
+	ffffb4366a9994f4 __do_munmap+0x1c4 ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.543181:     322357 cycles: 
+	ffffb4366a9d2f30 memcg_slab_free_hook+0x170 ([kernel.kallsyms])
+	ffffb4366a9d8f98 kmem_cache_free+0x108 ([kernel.kallsyms])
+	ffffb4366a79d28c vm_area_free+0x2c ([kernel.kallsyms])
+	ffffb4366a996c9c remove_vma+0x4c ([kernel.kallsyms])
+	ffffb4366a99952c __do_munmap+0x1fc ([kernel.kallsyms])
+	ffffb4366a999848 __vm_munmap+0x78 ([kernel.kallsyms])
+	ffffb4366a999990 __arm64_sys_munmap+0x40 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+	    ffff8b4c9aa8 __munmap+0x8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    ffff8b41ce10 __libc_start_main+0xe8 (/usr/lib/aarch64-linux-gnu/libc-2.31.so)
+	    aaaad3480ec0 _start+0x34 (/home/ronak/open-gpu-kernel-modules/sum_array/normal_sum_userprogram)
+
+normal_sum_user 49262 12190.543436:     323095 cycles: 
+	ffffb4366a99c254 tlb_flush+0x114 ([kernel.kallsyms])
+	ffffb4366a99c880 tlb_finish_mmu+0x50 ([kernel.kallsyms])
+	ffffb4366a999a98 exit_mmap+0xf8 ([kernel.kallsyms])
+	ffffb4366a79c5f0 mmput+0x80 ([kernel.kallsyms])
+	ffffb4366a7a88fc do_exit+0x2fc ([kernel.kallsyms])
+	ffffb4366a7a916c do_group_exit+0x4c ([kernel.kallsyms])
+	ffffb4366a7a91f8 __arm64_sys_exit_group+0x28 ([kernel.kallsyms])
+	ffffb4366a73b730 el0_svc_common.constprop.0+0x80 ([kernel.kallsyms])
+	ffffb4366a73b8b8 do_el0_svc+0x38 ([kernel.kallsyms])
+	ffffb4366b90c39c el0_svc+0x1c ([kernel.kallsyms])
+	ffffb4366b90c8f8 el0_sync_handler+0xa8 ([kernel.kallsyms])
+	ffffb4366a721e6c el0_sync+0x16c ([kernel.kallsyms])
+

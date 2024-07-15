@@ -1,0 +1,1845 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 231  of event 'cycles'
+# Event count (approx.): 58504861
+#
+# Children      Self  Command          Shared Object              Symbol                                   
+# ........  ........  ...............  .........................  .........................................
+#
+    96.23%     0.00%  cascading_sum_u  cascading_sum_userprogram  [.] _start
+            |
+            ---_start
+               __libc_start_main
+               |          
+               |--41.47%--rand
+               |          |          
+               |           --0.52%--el0_irq_naked
+               |                     __irqentry_text_start
+               |                     __handle_domain_irq
+               |                     irq_exit
+               |                     __do_softirq
+               |          
+               |--37.70%--main
+               |          |          
+               |          |--8.60%--el0_sync
+               |          |          el0_sync_handler
+               |          |          |          
+               |          |          |--8.06%--el0_da
+               |          |          |          |          
+               |          |          |           --3.52%--do_mem_abort
+               |          |          |                     do_translation_fault
+               |          |          |                     do_page_fault
+               |          |          |                     handle_mm_fault
+               |          |          |                     |          
+               |          |          |                     |--1.04%--do_huge_pmd_anonymous_page
+               |          |          |                     |          __pi_clear_page
+               |          |          |                     |          
+               |          |          |                     |--1.01%--mem_cgroup_charge
+               |          |          |                     |          |          
+               |          |          |                     |           --0.53%--try_charge
+               |          |          |                     |          
+               |          |          |                      --0.80%--lru_cache_add_inactive_or_unevictable
+               |          |          |                                lru_cache_add
+               |          |          |                                pagevec_lru_move_fn
+               |          |          |                                _raw_spin_unlock_irqrestore
+               |          |          |          
+               |          |           --0.54%--do_mem_abort
+               |          |          
+               |          |--4.83%--__GI___libc_write
+               |          |          el0_sync
+               |          |          el0_sync_handler
+               |          |          el0_svc
+               |          |          do_el0_svc
+               |          |          el0_svc_common.constprop.0
+               |          |          __arm64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          device_write
+               |          |          |          
+               |          |          |--2.48%--cascading_sum
+               |          |          |          |          
+               |          |          |           --1.00%--cascading_sum
+               |          |          |                     |          
+               |          |          |                      --0.50%--cascading_sum
+               |          |          |          
+               |          |           --1.86%--__arch_copy_from_user
+               |          |          
+               |           --0.53%--__close
+               |                     el0_sync
+               |                     el0_sync_handler
+               |                     el0_svc
+               |                     do_el0_svc
+               |                     el0_svc_common.constprop.0
+               |                     __arm64_sys_close
+               |                     __close_fd
+               |                     filp_close
+               |                     dnotify_flush
+               |          
+               |--12.99%--__memcpy_generic
+               |          |          
+               |           --7.99%--el0_sync
+               |                     el0_sync_handler
+               |                     |          
+               |                      --7.18%--el0_da
+               |                                |          
+               |                                 --4.32%--do_mem_abort
+               |                                           do_translation_fault
+               |                                           do_page_fault
+               |                                           handle_mm_fault
+               |                                           |          
+               |                                           |--1.55%--mem_cgroup_charge
+               |                                           |          
+               |                                           |--0.88%--lru_cache_add_inactive_or_unevictable
+               |                                           |          lru_cache_add
+               |                                           |          pagevec_lru_move_fn
+               |                                           |          _raw_spin_unlock_irqrestore
+               |                                           |          
+               |                                           |--0.80%--__alloc_pages_nodemask
+               |                                           |          get_page_from_freelist
+               |                                           |          
+               |                                            --0.73%--do_huge_pmd_anonymous_page
+               |                                                      __pi_clear_page
+               |          
+                --4.06%--__munmap
+                          el0_sync
+                          el0_sync_handler
+                          el0_svc
+                          do_el0_svc
+                          el0_svc_common.constprop.0
+                          __arm64_sys_munmap
+                          __vm_munmap
+                          __do_munmap
+                          unmap_region
+                          |          
+                          |--2.05%--tlb_finish_mmu
+                          |          tlb_flush_mmu
+                          |          free_pages_and_swap_cache
+                          |          release_pages
+                          |          |          
+                          |          |--1.02%--_raw_spin_unlock_irqrestore
+                          |          |          
+                          |          |--0.53%--free_unref_page_list
+                          |          |          
+                          |           --0.50%--mem_cgroup_uncharge_list
+                          |                     uncharge_batch
+                          |          
+                           --2.01%--unmap_vmas
+                                     unmap_single_vma
+                                     unmap_page_range
+                                     |          
+                                      --1.51%--page_remove_rmap
+                                                __mod_lruvec_state
+                                                __mod_memcg_lruvec_state
+
+    96.23%     0.00%  cascading_sum_u  libc-2.31.so               [.] __libc_start_main
+            |
+            ---__libc_start_main
+               |          
+               |--41.47%--rand
+               |          |          
+               |           --0.52%--el0_irq_naked
+               |                     __irqentry_text_start
+               |                     __handle_domain_irq
+               |                     irq_exit
+               |                     __do_softirq
+               |          
+               |--37.70%--main
+               |          |          
+               |          |--8.60%--el0_sync
+               |          |          el0_sync_handler
+               |          |          |          
+               |          |          |--8.06%--el0_da
+               |          |          |          |          
+               |          |          |           --3.52%--do_mem_abort
+               |          |          |                     do_translation_fault
+               |          |          |                     do_page_fault
+               |          |          |                     handle_mm_fault
+               |          |          |                     |          
+               |          |          |                     |--1.04%--do_huge_pmd_anonymous_page
+               |          |          |                     |          __pi_clear_page
+               |          |          |                     |          
+               |          |          |                     |--1.01%--mem_cgroup_charge
+               |          |          |                     |          |          
+               |          |          |                     |           --0.53%--try_charge
+               |          |          |                     |          
+               |          |          |                      --0.80%--lru_cache_add_inactive_or_unevictable
+               |          |          |                                lru_cache_add
+               |          |          |                                pagevec_lru_move_fn
+               |          |          |                                _raw_spin_unlock_irqrestore
+               |          |          |          
+               |          |           --0.54%--do_mem_abort
+               |          |          
+               |          |--4.83%--__GI___libc_write
+               |          |          el0_sync
+               |          |          el0_sync_handler
+               |          |          el0_svc
+               |          |          do_el0_svc
+               |          |          el0_svc_common.constprop.0
+               |          |          __arm64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          device_write
+               |          |          |          
+               |          |          |--2.48%--cascading_sum
+               |          |          |          |          
+               |          |          |           --1.00%--cascading_sum
+               |          |          |                     |          
+               |          |          |                      --0.50%--cascading_sum
+               |          |          |          
+               |          |           --1.86%--__arch_copy_from_user
+               |          |          
+               |           --0.53%--__close
+               |                     el0_sync
+               |                     el0_sync_handler
+               |                     el0_svc
+               |                     do_el0_svc
+               |                     el0_svc_common.constprop.0
+               |                     __arm64_sys_close
+               |                     __close_fd
+               |                     filp_close
+               |                     dnotify_flush
+               |          
+               |--12.99%--__memcpy_generic
+               |          |          
+               |           --7.99%--el0_sync
+               |                     el0_sync_handler
+               |                     |          
+               |                      --7.18%--el0_da
+               |                                |          
+               |                                 --4.32%--do_mem_abort
+               |                                           do_translation_fault
+               |                                           do_page_fault
+               |                                           handle_mm_fault
+               |                                           |          
+               |                                           |--1.55%--mem_cgroup_charge
+               |                                           |          
+               |                                           |--0.88%--lru_cache_add_inactive_or_unevictable
+               |                                           |          lru_cache_add
+               |                                           |          pagevec_lru_move_fn
+               |                                           |          _raw_spin_unlock_irqrestore
+               |                                           |          
+               |                                           |--0.80%--__alloc_pages_nodemask
+               |                                           |          get_page_from_freelist
+               |                                           |          
+               |                                            --0.73%--do_huge_pmd_anonymous_page
+               |                                                      __pi_clear_page
+               |          
+                --4.06%--__munmap
+                          el0_sync
+                          el0_sync_handler
+                          el0_svc
+                          do_el0_svc
+                          el0_svc_common.constprop.0
+                          __arm64_sys_munmap
+                          __vm_munmap
+                          __do_munmap
+                          unmap_region
+                          |          
+                          |--2.05%--tlb_finish_mmu
+                          |          tlb_flush_mmu
+                          |          free_pages_and_swap_cache
+                          |          release_pages
+                          |          |          
+                          |          |--1.02%--_raw_spin_unlock_irqrestore
+                          |          |          
+                          |          |--0.53%--free_unref_page_list
+                          |          |          
+                          |           --0.50%--mem_cgroup_uncharge_list
+                          |                     uncharge_batch
+                          |          
+                           --2.01%--unmap_vmas
+                                     unmap_single_vma
+                                     unmap_page_range
+                                     |          
+                                      --1.51%--page_remove_rmap
+                                                __mod_lruvec_state
+                                                __mod_memcg_lruvec_state
+
+    41.47%    40.95%  cascading_sum_u  libc-2.31.so               [.] rand
+            |          
+            |--40.95%--_start
+            |          __libc_start_main
+            |          rand
+            |          
+             --0.52%--rand
+                       el0_irq_naked
+                       __irqentry_text_start
+                       __handle_domain_irq
+                       irq_exit
+                       __do_softirq
+
+    37.70%    22.83%  cascading_sum_u  cascading_sum_userprogram  [.] main
+            |          
+            |--22.83%--_start
+            |          __libc_start_main
+            |          main
+            |          
+             --14.87%--main
+                       |          
+                       |--8.60%--el0_sync
+                       |          el0_sync_handler
+                       |          |          
+                       |          |--8.06%--el0_da
+                       |          |          |          
+                       |          |           --3.52%--do_mem_abort
+                       |          |                     do_translation_fault
+                       |          |                     do_page_fault
+                       |          |                     handle_mm_fault
+                       |          |                     |          
+                       |          |                     |--1.04%--do_huge_pmd_anonymous_page
+                       |          |                     |          __pi_clear_page
+                       |          |                     |          
+                       |          |                     |--1.01%--mem_cgroup_charge
+                       |          |                     |          |          
+                       |          |                     |           --0.53%--try_charge
+                       |          |                     |          
+                       |          |                      --0.80%--lru_cache_add_inactive_or_unevictable
+                       |          |                                lru_cache_add
+                       |          |                                pagevec_lru_move_fn
+                       |          |                                _raw_spin_unlock_irqrestore
+                       |          |          
+                       |           --0.54%--do_mem_abort
+                       |          
+                       |--4.83%--__GI___libc_write
+                       |          el0_sync
+                       |          el0_sync_handler
+                       |          el0_svc
+                       |          do_el0_svc
+                       |          el0_svc_common.constprop.0
+                       |          __arm64_sys_write
+                       |          ksys_write
+                       |          vfs_write
+                       |          device_write
+                       |          |          
+                       |          |--2.48%--cascading_sum
+                       |          |          |          
+                       |          |           --1.00%--cascading_sum
+                       |          |                     |          
+                       |          |                      --0.50%--cascading_sum
+                       |          |          
+                       |           --1.86%--__arch_copy_from_user
+                       |          
+                        --0.53%--__close
+                                  el0_sync
+                                  el0_sync_handler
+                                  el0_svc
+                                  do_el0_svc
+                                  el0_svc_common.constprop.0
+                                  __arm64_sys_close
+                                  __close_fd
+                                  filp_close
+                                  dnotify_flush
+
+    29.51%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] el0_sync
+            |
+            ---el0_sync
+               el0_sync_handler
+               |          
+               |--15.89%--el0_da
+               |          |          
+               |           --8.18%--do_mem_abort
+               |                     do_translation_fault
+               |                     do_page_fault
+               |                     handle_mm_fault
+               |                     |          
+               |                     |--2.56%--mem_cgroup_charge
+               |                     |          |          
+               |                     |           --0.53%--try_charge
+               |                     |          
+               |                     |--1.77%--do_huge_pmd_anonymous_page
+               |                     |          __pi_clear_page
+               |                     |          
+               |                     |--1.69%--lru_cache_add_inactive_or_unevictable
+               |                     |          lru_cache_add
+               |                     |          pagevec_lru_move_fn
+               |                     |          _raw_spin_unlock_irqrestore
+               |                     |          
+               |                      --0.80%--__alloc_pages_nodemask
+               |                                get_page_from_freelist
+               |          
+               |--11.38%--el0_svc
+               |          do_el0_svc
+               |          el0_svc_common.constprop.0
+               |          |          
+               |          |--4.83%--__arm64_sys_write
+               |          |          ksys_write
+               |          |          vfs_write
+               |          |          device_write
+               |          |          |          
+               |          |          |--2.48%--cascading_sum
+               |          |          |          |          
+               |          |          |           --1.00%--cascading_sum
+               |          |          |                     |          
+               |          |          |                      --0.50%--cascading_sum
+               |          |          |          
+               |          |           --1.86%--__arch_copy_from_user
+               |          |          
+               |          |--4.06%--__arm64_sys_munmap
+               |          |          __vm_munmap
+               |          |          __do_munmap
+               |          |          unmap_region
+               |          |          |          
+               |          |          |--2.05%--tlb_finish_mmu
+               |          |          |          tlb_flush_mmu
+               |          |          |          free_pages_and_swap_cache
+               |          |          |          release_pages
+               |          |          |          |          
+               |          |          |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          |          |          
+               |          |          |          |--0.53%--free_unref_page_list
+               |          |          |          |          
+               |          |          |           --0.50%--mem_cgroup_uncharge_list
+               |          |          |                     uncharge_batch
+               |          |          |          
+               |          |           --2.01%--unmap_vmas
+               |          |                     unmap_single_vma
+               |          |                     unmap_page_range
+               |          |                     |          
+               |          |                      --1.51%--page_remove_rmap
+               |          |                                __mod_lruvec_state
+               |          |                                __mod_memcg_lruvec_state
+               |          |          
+               |          |--0.79%--__arm64_sys_mprotect
+               |          |          mprotect_fixup
+               |          |          split_vma
+               |          |          __split_vma
+               |          |          
+               |          |--0.64%--__arm64_sys_execve
+               |          |          do_execveat_common.isra.0
+               |          |          bprm_execve
+               |          |          load_elf_binary
+               |          |          
+               |          |--0.53%--__arm64_sys_close
+               |          |          __close_fd
+               |          |          filp_close
+               |          |          dnotify_flush
+               |          |          
+               |           --0.53%--__arm64_sys_exit_group
+               |                     do_group_exit
+               |                     do_exit
+               |                     mmput
+               |                     exit_mmap
+               |                     tlb_finish_mmu
+               |                     tlb_flush_mmu
+               |                     free_pages_and_swap_cache
+               |                     release_pages
+               |                     _raw_spin_unlock_irqrestore
+               |          
+               |--0.91%--do_mem_abort
+               |          
+                --0.89%--el0_ia
+
+    29.51%     0.44%  cascading_sum_u  [kernel.kallsyms]          [k] el0_sync_handler
+            |          
+             --29.07%--el0_sync_handler
+                       |          
+                       |--15.89%--el0_da
+                       |          |          
+                       |           --8.18%--do_mem_abort
+                       |                     do_translation_fault
+                       |                     do_page_fault
+                       |                     handle_mm_fault
+                       |                     |          
+                       |                     |--2.56%--mem_cgroup_charge
+                       |                     |          |          
+                       |                     |           --0.53%--try_charge
+                       |                     |          
+                       |                     |--1.77%--do_huge_pmd_anonymous_page
+                       |                     |          __pi_clear_page
+                       |                     |          
+                       |                     |--1.69%--lru_cache_add_inactive_or_unevictable
+                       |                     |          lru_cache_add
+                       |                     |          pagevec_lru_move_fn
+                       |                     |          _raw_spin_unlock_irqrestore
+                       |                     |          
+                       |                      --0.80%--__alloc_pages_nodemask
+                       |                                get_page_from_freelist
+                       |          
+                       |--11.38%--el0_svc
+                       |          do_el0_svc
+                       |          el0_svc_common.constprop.0
+                       |          |          
+                       |          |--4.83%--__arm64_sys_write
+                       |          |          ksys_write
+                       |          |          vfs_write
+                       |          |          device_write
+                       |          |          |          
+                       |          |          |--2.48%--cascading_sum
+                       |          |          |          |          
+                       |          |          |           --1.00%--cascading_sum
+                       |          |          |                     |          
+                       |          |          |                      --0.50%--cascading_sum
+                       |          |          |          
+                       |          |           --1.86%--__arch_copy_from_user
+                       |          |          
+                       |          |--4.06%--__arm64_sys_munmap
+                       |          |          __vm_munmap
+                       |          |          __do_munmap
+                       |          |          unmap_region
+                       |          |          |          
+                       |          |          |--2.05%--tlb_finish_mmu
+                       |          |          |          tlb_flush_mmu
+                       |          |          |          free_pages_and_swap_cache
+                       |          |          |          release_pages
+                       |          |          |          |          
+                       |          |          |          |--1.02%--_raw_spin_unlock_irqrestore
+                       |          |          |          |          
+                       |          |          |          |--0.53%--free_unref_page_list
+                       |          |          |          |          
+                       |          |          |           --0.50%--mem_cgroup_uncharge_list
+                       |          |          |                     uncharge_batch
+                       |          |          |          
+                       |          |           --2.01%--unmap_vmas
+                       |          |                     unmap_single_vma
+                       |          |                     unmap_page_range
+                       |          |                     |          
+                       |          |                      --1.51%--page_remove_rmap
+                       |          |                                __mod_lruvec_state
+                       |          |                                __mod_memcg_lruvec_state
+                       |          |          
+                       |          |--0.79%--__arm64_sys_mprotect
+                       |          |          mprotect_fixup
+                       |          |          split_vma
+                       |          |          __split_vma
+                       |          |          
+                       |          |--0.64%--__arm64_sys_execve
+                       |          |          do_execveat_common.isra.0
+                       |          |          bprm_execve
+                       |          |          load_elf_binary
+                       |          |          
+                       |          |--0.53%--__arm64_sys_close
+                       |          |          __close_fd
+                       |          |          filp_close
+                       |          |          dnotify_flush
+                       |          |          
+                       |           --0.53%--__arm64_sys_exit_group
+                       |                     do_group_exit
+                       |                     do_exit
+                       |                     mmput
+                       |                     exit_mmap
+                       |                     tlb_finish_mmu
+                       |                     tlb_flush_mmu
+                       |                     free_pages_and_swap_cache
+                       |                     release_pages
+                       |                     _raw_spin_unlock_irqrestore
+                       |          
+                       |--0.91%--do_mem_abort
+                       |          
+                        --0.89%--el0_ia
+
+    15.89%     7.71%  cascading_sum_u  [kernel.kallsyms]          [k] el0_da
+            |          
+            |--8.18%--el0_da
+            |          do_mem_abort
+            |          do_translation_fault
+            |          do_page_fault
+            |          handle_mm_fault
+            |          |          
+            |          |--2.56%--mem_cgroup_charge
+            |          |          |          
+            |          |           --0.53%--try_charge
+            |          |          
+            |          |--1.77%--do_huge_pmd_anonymous_page
+            |          |          __pi_clear_page
+            |          |          
+            |          |--1.69%--lru_cache_add_inactive_or_unevictable
+            |          |          lru_cache_add
+            |          |          pagevec_lru_move_fn
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |           --0.80%--__alloc_pages_nodemask
+            |                     get_page_from_freelist
+            |          
+             --7.40%--_start
+                       __libc_start_main
+                       |          
+                       |--4.54%--main
+                       |          el0_sync
+                       |          el0_sync_handler
+                       |          el0_da
+                       |          
+                        --2.86%--__memcpy_generic
+                                  el0_sync
+                                  el0_sync_handler
+                                  el0_da
+
+    12.99%     5.00%  cascading_sum_u  libc-2.31.so               [.] __memcpy_generic
+            |          
+            |--7.99%--__memcpy_generic
+            |          el0_sync
+            |          el0_sync_handler
+            |          |          
+            |           --7.18%--el0_da
+            |                     |          
+            |                      --4.32%--do_mem_abort
+            |                                do_translation_fault
+            |                                do_page_fault
+            |                                handle_mm_fault
+            |                                |          
+            |                                |--1.55%--mem_cgroup_charge
+            |                                |          
+            |                                |--0.88%--lru_cache_add_inactive_or_unevictable
+            |                                |          lru_cache_add
+            |                                |          pagevec_lru_move_fn
+            |                                |          _raw_spin_unlock_irqrestore
+            |                                |          
+            |                                |--0.80%--__alloc_pages_nodemask
+            |                                |          get_page_from_freelist
+            |                                |          
+            |                                 --0.73%--do_huge_pmd_anonymous_page
+            |                                           __pi_clear_page
+            |          
+             --5.00%--_start
+                       __libc_start_main
+                       __memcpy_generic
+
+    11.38%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] el0_svc
+            |
+            ---el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               |          
+               |--4.83%--__arm64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          device_write
+               |          |          
+               |          |--2.48%--cascading_sum
+               |          |          |          
+               |          |           --1.00%--cascading_sum
+               |          |                     |          
+               |          |                      --0.50%--cascading_sum
+               |          |          
+               |           --1.86%--__arch_copy_from_user
+               |          
+               |--4.06%--__arm64_sys_munmap
+               |          __vm_munmap
+               |          __do_munmap
+               |          unmap_region
+               |          |          
+               |          |--2.05%--tlb_finish_mmu
+               |          |          tlb_flush_mmu
+               |          |          free_pages_and_swap_cache
+               |          |          release_pages
+               |          |          |          
+               |          |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          |          
+               |          |          |--0.53%--free_unref_page_list
+               |          |          |          
+               |          |           --0.50%--mem_cgroup_uncharge_list
+               |          |                     uncharge_batch
+               |          |          
+               |           --2.01%--unmap_vmas
+               |                     unmap_single_vma
+               |                     unmap_page_range
+               |                     |          
+               |                      --1.51%--page_remove_rmap
+               |                                __mod_lruvec_state
+               |                                __mod_memcg_lruvec_state
+               |          
+               |--0.79%--__arm64_sys_mprotect
+               |          mprotect_fixup
+               |          split_vma
+               |          __split_vma
+               |          
+               |--0.64%--__arm64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          load_elf_binary
+               |          
+               |--0.53%--__arm64_sys_close
+               |          __close_fd
+               |          filp_close
+               |          dnotify_flush
+               |          
+                --0.53%--__arm64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          mmput
+                          exit_mmap
+                          tlb_finish_mmu
+                          tlb_flush_mmu
+                          free_pages_and_swap_cache
+                          release_pages
+                          _raw_spin_unlock_irqrestore
+
+    11.38%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_el0_svc
+            |
+            ---do_el0_svc
+               el0_svc_common.constprop.0
+               |          
+               |--4.83%--__arm64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          device_write
+               |          |          
+               |          |--2.48%--cascading_sum
+               |          |          |          
+               |          |           --1.00%--cascading_sum
+               |          |                     |          
+               |          |                      --0.50%--cascading_sum
+               |          |          
+               |           --1.86%--__arch_copy_from_user
+               |          
+               |--4.06%--__arm64_sys_munmap
+               |          __vm_munmap
+               |          __do_munmap
+               |          unmap_region
+               |          |          
+               |          |--2.05%--tlb_finish_mmu
+               |          |          tlb_flush_mmu
+               |          |          free_pages_and_swap_cache
+               |          |          release_pages
+               |          |          |          
+               |          |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          |          
+               |          |          |--0.53%--free_unref_page_list
+               |          |          |          
+               |          |           --0.50%--mem_cgroup_uncharge_list
+               |          |                     uncharge_batch
+               |          |          
+               |           --2.01%--unmap_vmas
+               |                     unmap_single_vma
+               |                     unmap_page_range
+               |                     |          
+               |                      --1.51%--page_remove_rmap
+               |                                __mod_lruvec_state
+               |                                __mod_memcg_lruvec_state
+               |          
+               |--0.79%--__arm64_sys_mprotect
+               |          mprotect_fixup
+               |          split_vma
+               |          __split_vma
+               |          
+               |--0.64%--__arm64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          load_elf_binary
+               |          
+               |--0.53%--__arm64_sys_close
+               |          __close_fd
+               |          filp_close
+               |          dnotify_flush
+               |          
+                --0.53%--__arm64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          mmput
+                          exit_mmap
+                          tlb_finish_mmu
+                          tlb_flush_mmu
+                          free_pages_and_swap_cache
+                          release_pages
+                          _raw_spin_unlock_irqrestore
+
+    11.38%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] el0_svc_common.constprop.0
+            |
+            ---el0_svc_common.constprop.0
+               |          
+               |--4.83%--__arm64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          device_write
+               |          |          
+               |          |--2.48%--cascading_sum
+               |          |          |          
+               |          |           --1.00%--cascading_sum
+               |          |                     |          
+               |          |                      --0.50%--cascading_sum
+               |          |          
+               |           --1.86%--__arch_copy_from_user
+               |          
+               |--4.06%--__arm64_sys_munmap
+               |          __vm_munmap
+               |          __do_munmap
+               |          unmap_region
+               |          |          
+               |          |--2.05%--tlb_finish_mmu
+               |          |          tlb_flush_mmu
+               |          |          free_pages_and_swap_cache
+               |          |          release_pages
+               |          |          |          
+               |          |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          |          
+               |          |          |--0.53%--free_unref_page_list
+               |          |          |          
+               |          |           --0.50%--mem_cgroup_uncharge_list
+               |          |                     uncharge_batch
+               |          |          
+               |           --2.01%--unmap_vmas
+               |                     unmap_single_vma
+               |                     unmap_page_range
+               |                     |          
+               |                      --1.51%--page_remove_rmap
+               |                                __mod_lruvec_state
+               |                                __mod_memcg_lruvec_state
+               |          
+               |--0.79%--__arm64_sys_mprotect
+               |          mprotect_fixup
+               |          split_vma
+               |          __split_vma
+               |          
+               |--0.64%--__arm64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          load_elf_binary
+               |          
+               |--0.53%--__arm64_sys_close
+               |          __close_fd
+               |          filp_close
+               |          dnotify_flush
+               |          
+                --0.53%--__arm64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          mmput
+                          exit_mmap
+                          tlb_finish_mmu
+                          tlb_flush_mmu
+                          free_pages_and_swap_cache
+                          release_pages
+                          _raw_spin_unlock_irqrestore
+
+     9.55%     0.91%  cascading_sum_u  [kernel.kallsyms]          [k] do_mem_abort
+            |          
+            |--8.64%--do_mem_abort
+            |          do_translation_fault
+            |          do_page_fault
+            |          handle_mm_fault
+            |          |          
+            |          |--2.56%--mem_cgroup_charge
+            |          |          |          
+            |          |           --0.53%--try_charge
+            |          |          
+            |          |--1.77%--do_huge_pmd_anonymous_page
+            |          |          __pi_clear_page
+            |          |          
+            |          |--1.69%--lru_cache_add_inactive_or_unevictable
+            |          |          lru_cache_add
+            |          |          pagevec_lru_move_fn
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |           --0.80%--__alloc_pages_nodemask
+            |                     get_page_from_freelist
+            |          
+             --0.91%--_start
+                       __libc_start_main
+                       |          
+                        --0.54%--main
+                                  el0_sync
+                                  el0_sync_handler
+                                  do_mem_abort
+
+     8.64%     0.90%  cascading_sum_u  [kernel.kallsyms]          [k] handle_mm_fault
+            |          
+            |--7.74%--handle_mm_fault
+            |          |          
+            |          |--2.56%--mem_cgroup_charge
+            |          |          |          
+            |          |           --0.53%--try_charge
+            |          |          
+            |          |--1.77%--do_huge_pmd_anonymous_page
+            |          |          __pi_clear_page
+            |          |          
+            |          |--1.69%--lru_cache_add_inactive_or_unevictable
+            |          |          lru_cache_add
+            |          |          pagevec_lru_move_fn
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |           --0.80%--__alloc_pages_nodemask
+            |                     get_page_from_freelist
+            |          
+             --0.90%--_start
+                       __libc_start_main
+                       |          
+                        --0.54%--main
+                                  el0_sync
+                                  el0_sync_handler
+                                  el0_da
+                                  do_mem_abort
+                                  do_translation_fault
+                                  do_page_fault
+                                  handle_mm_fault
+
+     8.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_translation_fault
+            |
+            ---do_translation_fault
+               do_page_fault
+               handle_mm_fault
+               |          
+               |--2.56%--mem_cgroup_charge
+               |          |          
+               |           --0.53%--try_charge
+               |          
+               |--1.77%--do_huge_pmd_anonymous_page
+               |          __pi_clear_page
+               |          
+               |--1.69%--lru_cache_add_inactive_or_unevictable
+               |          lru_cache_add
+               |          pagevec_lru_move_fn
+               |          _raw_spin_unlock_irqrestore
+               |          
+                --0.80%--__alloc_pages_nodemask
+                          get_page_from_freelist
+
+     8.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_page_fault
+            |
+            ---do_page_fault
+               handle_mm_fault
+               |          
+               |--2.56%--mem_cgroup_charge
+               |          |          
+               |           --0.53%--try_charge
+               |          
+               |--1.77%--do_huge_pmd_anonymous_page
+               |          __pi_clear_page
+               |          
+               |--1.69%--lru_cache_add_inactive_or_unevictable
+               |          lru_cache_add
+               |          pagevec_lru_move_fn
+               |          _raw_spin_unlock_irqrestore
+               |          
+                --0.80%--__alloc_pages_nodemask
+                          get_page_from_freelist
+
+     4.83%     0.00%  cascading_sum_u  libc-2.31.so               [.] __GI___libc_write
+            |
+            ---__GI___libc_write
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_write
+               ksys_write
+               vfs_write
+               device_write
+               |          
+               |--2.48%--cascading_sum
+               |          |          
+               |           --1.00%--cascading_sum
+               |                     |          
+               |                      --0.50%--cascading_sum
+               |          
+                --1.86%--__arch_copy_from_user
+
+     4.83%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_write
+            |
+            ---__arm64_sys_write
+               ksys_write
+               vfs_write
+               device_write
+               |          
+               |--2.48%--cascading_sum
+               |          |          
+               |           --1.00%--cascading_sum
+               |                     |          
+               |                      --0.50%--cascading_sum
+               |          
+                --1.86%--__arch_copy_from_user
+
+     4.83%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] ksys_write
+            |
+            ---ksys_write
+               vfs_write
+               device_write
+               |          
+               |--2.48%--cascading_sum
+               |          |          
+               |           --1.00%--cascading_sum
+               |                     |          
+               |                      --0.50%--cascading_sum
+               |          
+                --1.86%--__arch_copy_from_user
+
+     4.83%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vfs_write
+            |
+            ---vfs_write
+               device_write
+               |          
+               |--2.48%--cascading_sum
+               |          |          
+               |           --1.00%--cascading_sum
+               |                     |          
+               |                      --0.50%--cascading_sum
+               |          
+                --1.86%--__arch_copy_from_user
+
+     4.83%     0.00%  cascading_sum_u  [cascading_sum]            [k] device_write
+            |
+            ---device_write
+               |          
+               |--2.48%--cascading_sum
+               |          |          
+               |           --1.00%--cascading_sum
+               |                     |          
+               |                      --0.50%--cascading_sum
+               |          
+                --1.86%--__arch_copy_from_user
+
+     4.19%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __vm_munmap
+            |
+            ---__vm_munmap
+               __do_munmap
+               |          
+                --4.06%--unmap_region
+                          |          
+                          |--2.05%--tlb_finish_mmu
+                          |          tlb_flush_mmu
+                          |          free_pages_and_swap_cache
+                          |          release_pages
+                          |          |          
+                          |          |--1.02%--_raw_spin_unlock_irqrestore
+                          |          |          
+                          |          |--0.53%--free_unref_page_list
+                          |          |          
+                          |           --0.50%--mem_cgroup_uncharge_list
+                          |                     uncharge_batch
+                          |          
+                           --2.01%--unmap_vmas
+                                     unmap_single_vma
+                                     unmap_page_range
+                                     |          
+                                      --1.51%--page_remove_rmap
+                                                __mod_lruvec_state
+                                                __mod_memcg_lruvec_state
+
+     4.19%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __do_munmap
+            |
+            ---__do_munmap
+               |          
+                --4.06%--unmap_region
+                          |          
+                          |--2.05%--tlb_finish_mmu
+                          |          tlb_flush_mmu
+                          |          free_pages_and_swap_cache
+                          |          release_pages
+                          |          |          
+                          |          |--1.02%--_raw_spin_unlock_irqrestore
+                          |          |          
+                          |          |--0.53%--free_unref_page_list
+                          |          |          
+                          |           --0.50%--mem_cgroup_uncharge_list
+                          |                     uncharge_batch
+                          |          
+                           --2.01%--unmap_vmas
+                                     unmap_single_vma
+                                     unmap_page_range
+                                     |          
+                                      --1.51%--page_remove_rmap
+                                                __mod_lruvec_state
+                                                __mod_memcg_lruvec_state
+
+     4.06%     0.00%  cascading_sum_u  libc-2.31.so               [.] __munmap
+            |
+            ---__munmap
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_munmap
+               __vm_munmap
+               __do_munmap
+               unmap_region
+               |          
+               |--2.05%--tlb_finish_mmu
+               |          tlb_flush_mmu
+               |          free_pages_and_swap_cache
+               |          release_pages
+               |          |          
+               |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          
+               |          |--0.53%--free_unref_page_list
+               |          |          
+               |           --0.50%--mem_cgroup_uncharge_list
+               |                     uncharge_batch
+               |          
+                --2.01%--unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          |          
+                           --1.51%--page_remove_rmap
+                                     __mod_lruvec_state
+                                     __mod_memcg_lruvec_state
+
+     4.06%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_munmap
+            |
+            ---__arm64_sys_munmap
+               __vm_munmap
+               __do_munmap
+               unmap_region
+               |          
+               |--2.05%--tlb_finish_mmu
+               |          tlb_flush_mmu
+               |          free_pages_and_swap_cache
+               |          release_pages
+               |          |          
+               |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          
+               |          |--0.53%--free_unref_page_list
+               |          |          
+               |           --0.50%--mem_cgroup_uncharge_list
+               |                     uncharge_batch
+               |          
+                --2.01%--unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          |          
+                           --1.51%--page_remove_rmap
+                                     __mod_lruvec_state
+                                     __mod_memcg_lruvec_state
+
+     4.06%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] unmap_region
+            |
+            ---unmap_region
+               |          
+               |--2.05%--tlb_finish_mmu
+               |          tlb_flush_mmu
+               |          free_pages_and_swap_cache
+               |          release_pages
+               |          |          
+               |          |--1.02%--_raw_spin_unlock_irqrestore
+               |          |          
+               |          |--0.53%--free_unref_page_list
+               |          |          
+               |           --0.50%--mem_cgroup_uncharge_list
+               |                     uncharge_batch
+               |          
+                --2.01%--unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          |          
+                           --1.51%--page_remove_rmap
+                                     __mod_lruvec_state
+                                     __mod_memcg_lruvec_state
+
+     3.24%     3.24%  cascading_sum_u  [kernel.kallsyms]          [k] _raw_spin_unlock_irqrestore
+            |          
+            |--2.70%--_start
+            |          __libc_start_main
+            |          |          
+            |          |--1.02%--__munmap
+            |          |          el0_sync
+            |          |          el0_sync_handler
+            |          |          el0_svc
+            |          |          do_el0_svc
+            |          |          el0_svc_common.constprop.0
+            |          |          __arm64_sys_munmap
+            |          |          __vm_munmap
+            |          |          __do_munmap
+            |          |          unmap_region
+            |          |          tlb_finish_mmu
+            |          |          tlb_flush_mmu
+            |          |          free_pages_and_swap_cache
+            |          |          release_pages
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |          |--0.88%--__memcpy_generic
+            |          |          el0_sync
+            |          |          el0_sync_handler
+            |          |          el0_da
+            |          |          do_mem_abort
+            |          |          do_translation_fault
+            |          |          do_page_fault
+            |          |          handle_mm_fault
+            |          |          lru_cache_add_inactive_or_unevictable
+            |          |          lru_cache_add
+            |          |          pagevec_lru_move_fn
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |           --0.80%--main
+            |                     el0_sync
+            |                     el0_sync_handler
+            |                     el0_da
+            |                     do_mem_abort
+            |                     do_translation_fault
+            |                     do_page_fault
+            |                     handle_mm_fault
+            |                     lru_cache_add_inactive_or_unevictable
+            |                     lru_cache_add
+            |                     pagevec_lru_move_fn
+            |                     _raw_spin_unlock_irqrestore
+            |          
+             --0.53%--el0_sync
+                       el0_sync_handler
+                       el0_svc
+                       do_el0_svc
+                       el0_svc_common.constprop.0
+                       __arm64_sys_exit_group
+                       do_group_exit
+                       do_exit
+                       mmput
+                       exit_mmap
+                       tlb_finish_mmu
+                       tlb_flush_mmu
+                       free_pages_and_swap_cache
+                       release_pages
+                       _raw_spin_unlock_irqrestore
+
+     2.58%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] tlb_finish_mmu
+            |
+            ---tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               |          
+               |--1.55%--_raw_spin_unlock_irqrestore
+               |          
+               |--0.53%--free_unref_page_list
+               |          
+                --0.50%--mem_cgroup_uncharge_list
+                          uncharge_batch
+
+     2.58%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] tlb_flush_mmu
+            |
+            ---tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               |          
+               |--1.55%--_raw_spin_unlock_irqrestore
+               |          
+               |--0.53%--free_unref_page_list
+               |          
+                --0.50%--mem_cgroup_uncharge_list
+                          uncharge_batch
+
+     2.58%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] free_pages_and_swap_cache
+            |
+            ---free_pages_and_swap_cache
+               release_pages
+               |          
+               |--1.55%--_raw_spin_unlock_irqrestore
+               |          
+               |--0.53%--free_unref_page_list
+               |          
+                --0.50%--mem_cgroup_uncharge_list
+                          uncharge_batch
+
+     2.58%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] release_pages
+            |
+            ---release_pages
+               |          
+               |--1.55%--_raw_spin_unlock_irqrestore
+               |          
+               |--0.53%--free_unref_page_list
+               |          
+                --0.50%--mem_cgroup_uncharge_list
+                          uncharge_batch
+
+     2.56%     1.58%  cascading_sum_u  [kernel.kallsyms]          [k] mem_cgroup_charge
+            |          
+            |--1.58%--_start
+            |          __libc_start_main
+            |          |          
+            |           --1.10%--__memcpy_generic
+            |                     el0_sync
+            |                     el0_sync_handler
+            |                     el0_da
+            |                     do_mem_abort
+            |                     do_translation_fault
+            |                     do_page_fault
+            |                     handle_mm_fault
+            |                     mem_cgroup_charge
+            |          
+             --0.97%--mem_cgroup_charge
+                       |          
+                        --0.53%--try_charge
+
+     2.48%     2.48%  cascading_sum_u  [cascading_sum]            [k] cascading_sum
+            |
+            ---_start
+               __libc_start_main
+               main
+               __GI___libc_write
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_write
+               ksys_write
+               vfs_write
+               device_write
+               cascading_sum
+               |          
+                --1.00%--cascading_sum
+                          |          
+                           --0.50%--cascading_sum
+
+     2.13%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _start
+            |
+            ---_start
+               _dl_start
+               |          
+                --1.84%--_dl_start_final
+                          _dl_sysdep_start
+                          dl_main
+                          |          
+                           --1.11%--_dl_map_object_deps
+                                     |          
+                                      --0.71%--_dl_catch_exception
+                                                openaux
+                                                _dl_map_object
+
+     2.13%     0.29%  cascading_sum_u  ld-2.31.so                 [.] _dl_start
+            |          
+             --1.84%--_dl_start
+                       _dl_start_final
+                       _dl_sysdep_start
+                       dl_main
+                       |          
+                        --1.11%--_dl_map_object_deps
+                                  |          
+                                   --0.71%--_dl_catch_exception
+                                             openaux
+                                             _dl_map_object
+
+     2.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] unmap_vmas
+            |
+            ---unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               |          
+                --1.51%--page_remove_rmap
+                          __mod_lruvec_state
+                          __mod_memcg_lruvec_state
+
+     2.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] unmap_single_vma
+            |
+            ---unmap_single_vma
+               unmap_page_range
+               |          
+                --1.51%--page_remove_rmap
+                          __mod_lruvec_state
+                          __mod_memcg_lruvec_state
+
+     2.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] unmap_page_range
+            |
+            ---unmap_page_range
+               |          
+                --1.51%--page_remove_rmap
+                          __mod_lruvec_state
+                          __mod_memcg_lruvec_state
+
+     1.86%     1.86%  cascading_sum_u  [kernel.kallsyms]          [k] __arch_copy_from_user
+            |
+            ---_start
+               __libc_start_main
+               main
+               __GI___libc_write
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_write
+               ksys_write
+               vfs_write
+               device_write
+               __arch_copy_from_user
+
+     1.85%     1.85%  cascading_sum_u  [kernel.kallsyms]          [k] __mod_memcg_lruvec_state
+            |          
+             --1.51%--_start
+                       __libc_start_main
+                       __munmap
+                       el0_sync
+                       el0_sync_handler
+                       el0_svc
+                       do_el0_svc
+                       el0_svc_common.constprop.0
+                       __arm64_sys_munmap
+                       __vm_munmap
+                       __do_munmap
+                       unmap_region
+                       unmap_vmas
+                       unmap_single_vma
+                       unmap_page_range
+                       page_remove_rmap
+                       __mod_lruvec_state
+                       __mod_memcg_lruvec_state
+
+     1.85%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __mod_lruvec_state
+            |
+            ---__mod_lruvec_state
+               __mod_memcg_lruvec_state
+
+     1.84%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_start_final
+            |
+            ---_dl_start_final
+               _dl_sysdep_start
+               dl_main
+               |          
+                --1.11%--_dl_map_object_deps
+                          |          
+                           --0.71%--_dl_catch_exception
+                                     openaux
+                                     _dl_map_object
+
+     1.84%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_sysdep_start
+            |
+            ---_dl_sysdep_start
+               dl_main
+               |          
+                --1.11%--_dl_map_object_deps
+                          |          
+                           --0.71%--_dl_catch_exception
+                                     openaux
+                                     _dl_map_object
+
+     1.84%     0.00%  cascading_sum_u  ld-2.31.so                 [.] dl_main
+            |
+            ---dl_main
+               |          
+                --1.11%--_dl_map_object_deps
+                          |          
+                           --0.71%--_dl_catch_exception
+                                     openaux
+                                     _dl_map_object
+
+     1.77%     1.77%  cascading_sum_u  [kernel.kallsyms]          [k] __pi_clear_page
+            |
+            ---_start
+               __libc_start_main
+               |          
+               |--1.04%--main
+               |          el0_sync
+               |          el0_sync_handler
+               |          el0_da
+               |          do_mem_abort
+               |          do_translation_fault
+               |          do_page_fault
+               |          handle_mm_fault
+               |          do_huge_pmd_anonymous_page
+               |          __pi_clear_page
+               |          
+                --0.73%--__memcpy_generic
+                          el0_sync
+                          el0_sync_handler
+                          el0_da
+                          do_mem_abort
+                          do_translation_fault
+                          do_page_fault
+                          handle_mm_fault
+                          do_huge_pmd_anonymous_page
+                          __pi_clear_page
+
+     1.77%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_huge_pmd_anonymous_page
+            |
+            ---do_huge_pmd_anonymous_page
+               __pi_clear_page
+
+     1.69%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] lru_cache_add_inactive_or_unevictable
+            |
+            ---lru_cache_add_inactive_or_unevictable
+               lru_cache_add
+               pagevec_lru_move_fn
+               _raw_spin_unlock_irqrestore
+
+     1.69%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] lru_cache_add
+            |
+            ---lru_cache_add
+               pagevec_lru_move_fn
+               _raw_spin_unlock_irqrestore
+
+     1.69%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] pagevec_lru_move_fn
+            |
+            ---pagevec_lru_move_fn
+               _raw_spin_unlock_irqrestore
+
+     1.51%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] page_remove_rmap
+            |
+            ---page_remove_rmap
+               __mod_lruvec_state
+               __mod_memcg_lruvec_state
+
+     1.11%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_map_object_deps
+            |
+            ---_dl_map_object_deps
+               |          
+                --0.71%--_dl_catch_exception
+                          openaux
+                          _dl_map_object
+
+     0.91%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __split_vma
+            |
+            ---__split_vma
+
+     0.89%     0.43%  cascading_sum_u  [kernel.kallsyms]          [k] el0_ia
+     0.80%     0.80%  cascading_sum_u  [kernel.kallsyms]          [k] get_page_from_freelist
+            |
+            ---_start
+               __libc_start_main
+               __memcpy_generic
+               el0_sync
+               el0_sync_handler
+               el0_da
+               do_mem_abort
+               do_translation_fault
+               do_page_fault
+               handle_mm_fault
+               __alloc_pages_nodemask
+               get_page_from_freelist
+
+     0.80%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __alloc_pages_nodemask
+            |
+            ---__alloc_pages_nodemask
+               get_page_from_freelist
+
+     0.80%     0.46%  cascading_sum_u  [kernel.kallsyms]          [k] alloc_set_pte
+     0.79%     0.00%  cascading_sum_u  ld-2.31.so                 [.] mprotect
+            |
+            ---mprotect
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_mprotect
+               mprotect_fixup
+               split_vma
+               __split_vma
+
+     0.79%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_mprotect
+            |
+            ---__arm64_sys_mprotect
+               mprotect_fixup
+               split_vma
+               __split_vma
+
+     0.79%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] mprotect_fixup
+            |
+            ---mprotect_fixup
+               split_vma
+               __split_vma
+
+     0.79%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] split_vma
+            |
+            ---split_vma
+               __split_vma
+
+     0.71%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_catch_exception
+            |
+            ---_dl_catch_exception
+               openaux
+               _dl_map_object
+
+     0.71%     0.00%  cascading_sum_u  ld-2.31.so                 [.] openaux
+            |
+            ---openaux
+               _dl_map_object
+
+     0.71%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_map_object
+            |
+            ---_dl_map_object
+
+     0.64%     0.00%  cascading_sum_u  [unknown]                  [k] 0x0000ffff8f6ef1e8
+            |
+            ---0xffff8f6ef1e8
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               load_elf_binary
+
+     0.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_execve
+            |
+            ---__arm64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               load_elf_binary
+
+     0.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_execveat_common.isra.0
+            |
+            ---do_execveat_common.isra.0
+               bprm_execve
+               load_elf_binary
+
+     0.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] bprm_execve
+            |
+            ---bprm_execve
+               load_elf_binary
+
+     0.64%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] load_elf_binary
+            |
+            ---load_elf_binary
+
+     0.57%     0.57%  cascading_sum_u  [kernel.kallsyms]          [k] __rb_insert_augmented
+     0.53%     0.53%  cascading_sum_u  [kernel.kallsyms]          [k] dnotify_flush
+            |
+            ---_start
+               __libc_start_main
+               main
+               __close
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_close
+               __close_fd
+               filp_close
+               dnotify_flush
+
+     0.53%     0.00%  cascading_sum_u  libc-2.31.so               [.] __close
+            |
+            ---__close
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_close
+               __close_fd
+               filp_close
+               dnotify_flush
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_close
+            |
+            ---__arm64_sys_close
+               __close_fd
+               filp_close
+               dnotify_flush
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __close_fd
+            |
+            ---__close_fd
+               filp_close
+               dnotify_flush
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] filp_close
+            |
+            ---filp_close
+               dnotify_flush
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __arm64_sys_exit_group
+            |
+            ---__arm64_sys_exit_group
+               do_group_exit
+               do_exit
+               mmput
+               exit_mmap
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               _raw_spin_unlock_irqrestore
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_group_exit
+            |
+            ---do_group_exit
+               do_exit
+               mmput
+               exit_mmap
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               _raw_spin_unlock_irqrestore
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_exit
+            |
+            ---do_exit
+               mmput
+               exit_mmap
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               _raw_spin_unlock_irqrestore
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] mmput
+            |
+            ---mmput
+               exit_mmap
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               _raw_spin_unlock_irqrestore
+
+     0.53%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] exit_mmap
+            |
+            ---exit_mmap
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               _raw_spin_unlock_irqrestore
+
+     0.53%     0.53%  cascading_sum_u  [kernel.kallsyms]          [k] free_unref_page_list
+            |
+            ---_start
+               __libc_start_main
+               __munmap
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_munmap
+               __vm_munmap
+               __do_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.53%     0.53%  cascading_sum_u  [kernel.kallsyms]          [k] try_charge
+            |
+            ---_start
+               __libc_start_main
+               main
+               el0_sync
+               el0_sync_handler
+               el0_da
+               do_mem_abort
+               do_translation_fault
+               do_page_fault
+               handle_mm_fault
+               mem_cgroup_charge
+               try_charge
+
+     0.52%     0.52%  cascading_sum_u  [kernel.kallsyms]          [k] __do_softirq
+            |
+            ---_start
+               __libc_start_main
+               rand
+               el0_irq_naked
+               __irqentry_text_start
+               __handle_domain_irq
+               irq_exit
+               __do_softirq
+
+     0.52%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] el0_irq_naked
+            |
+            ---el0_irq_naked
+               __irqentry_text_start
+               __handle_domain_irq
+               irq_exit
+               __do_softirq
+
+     0.52%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __irqentry_text_start
+            |
+            ---__irqentry_text_start
+               __handle_domain_irq
+               irq_exit
+               __do_softirq
+
+     0.52%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __handle_domain_irq
+            |
+            ---__handle_domain_irq
+               irq_exit
+               __do_softirq
+
+     0.52%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] irq_exit
+            |
+            ---irq_exit
+               __do_softirq
+
+     0.50%     0.50%  cascading_sum_u  [kernel.kallsyms]          [k] uncharge_batch
+            |
+            ---_start
+               __libc_start_main
+               __munmap
+               el0_sync
+               el0_sync_handler
+               el0_svc
+               do_el0_svc
+               el0_svc_common.constprop.0
+               __arm64_sys_munmap
+               __vm_munmap
+               __do_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_flush_mmu
+               free_pages_and_swap_cache
+               release_pages
+               mem_cgroup_uncharge_list
+               uncharge_batch
+
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] mem_cgroup_uncharge_list
+            |
+            ---mem_cgroup_uncharge_list
+               uncharge_batch
+
+     0.50%     0.50%  cascading_sum_u  [kernel.kallsyms]          [k] console_unlock
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] printk
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vprintk_func
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vprintk_default
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vprintk_emit
+     0.50%     0.50%  cascading_sum_u  [kernel.kallsyms]          [k] free_pcp_prepare
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] zap_huge_pmd
+     0.50%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __free_pages
+     0.46%     0.00%  cascading_sum_u  libc-2.31.so               [.] __printf_chk
+     0.46%     0.00%  cascading_sum_u  libc-2.31.so               [.] _itoa_word
+     0.45%     0.45%  cascading_sum_u  [kernel.kallsyms]          [k] get_mem_cgroup_from_mm
+     0.44%     0.44%  cascading_sum_u  libc-2.31.so               [.] malloc_init_state
+     0.44%     0.00%  cascading_sum_u  libc-2.31.so               [.] malloc_hook_ini
+     0.43%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_start_user
+     0.43%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_init
+     0.43%     0.00%  cascading_sum_u  ld-2.31.so                 [.] call_init.part.0
+     0.43%     0.00%  cascading_sum_u  libc-2.31.so               [.] __init_misc
+     0.42%     0.42%  cascading_sum_u  [kernel.kallsyms]          [k] anon_vma_interval_tree_insert
+     0.42%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_relocate_object
+     0.42%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] anon_vma_clone
+     0.40%     0.40%  cascading_sum_u  ld-2.31.so                 [.] memset
+     0.37%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __vma_adjust
+     0.37%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __vma_link_file
+     0.37%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vma_interval_tree_insert
+     0.34%     0.00%  cascading_sum_u  ld-2.31.so                 [.] _dl_cache_libcmp
+     0.34%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] filemap_map_pages
+     0.34%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] page_add_file_rmap
+     0.33%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] elf_map
+     0.25%     0.25%  cascading_sum_u  [kernel.kallsyms]          [k] create_elf_tables.isra.0
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vm_mmap
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vm_mmap_pgoff
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_mmap
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] mmap_region
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vma_link
+     0.20%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __vma_link_rb
+     0.13%     0.13%  cascading_sum_u  [kernel.kallsyms]          [k] _raw_spin_lock
+     0.13%     0.13%  cascading_sum_u  [kernel.kallsyms]          [k] obj_cgroup_charge
+     0.13%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vm_munmap
+     0.13%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] vm_area_dup
+     0.06%     0.06%  cascading_sum_u  [kernel.kallsyms]          [k] move_page_tables
+     0.06%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] setup_arg_pages
+     0.06%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] shift_arg_pages
+     0.04%     0.00%  perf             [unknown]                  [k] 0x0000ffff8f6ef1e8
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] el0_sync
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] el0_sync_handler
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] el0_svc
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] do_el0_svc
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] el0_svc_common.constprop.0
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] __arm64_sys_execve
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] do_execveat_common.isra.0
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] bprm_execve
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] load_elf_binary
+     0.04%     0.00%  perf             [kernel.kallsyms]          [k] begin_new_exec
+     0.02%     0.02%  perf             [kernel.kallsyms]          [k] perf_event_comm_output
+     0.02%     0.00%  perf             [kernel.kallsyms]          [k] __set_task_comm
+     0.02%     0.00%  perf             [kernel.kallsyms]          [k] perf_event_comm
+     0.02%     0.00%  perf             [kernel.kallsyms]          [k] perf_iterate_sb
+     0.02%     0.00%  perf             [kernel.kallsyms]          [k] perf_iterate_ctx.constprop.0
+     0.02%     0.02%  perf             [kernel.kallsyms]          [k] perf_event_exec
+     0.01%     0.01%  cascading_sum_u  [kernel.kallsyms]          [k] _raw_spin_unlock_irq
+     0.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] work_pending
+     0.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] do_notify_resume
+     0.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] schedule
+     0.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] __schedule
+     0.01%     0.00%  cascading_sum_u  [kernel.kallsyms]          [k] finish_task_switch
+
+
+#
+# (Tip: To report cacheline events from previous recording: perf c2c report)
+#
